@@ -1,0 +1,135 @@
+     .container {
+       width: 80%;
+     }
+     #navbar, #right {
+       background-color: rgba(255, 255, 255, 0.6);
+       position: fixed;
+       left: 50%;
+       transform: translateX(-50%);
+       z-index: 2;
+     }
+     #navbar {
+       top: 0;
+     }
+     #right {
+       bottom: 0;
+     }
+     #righttext {
+       padding: 20px;
+       color: gray;
+       font-size: 20px;
+     }
+     #home {
+       text-decoration: none;
+       font-size: 25px;
+       color: black;
+     }
+     .linkref {
+       //color: white;
+       text-decoration: none;
+       padding: 20px;
+       font-size: 20px;
+       color: black;
+     }
+     .linkref:hover {
+       background-color: WhiteSmoke;
+     }
+     .navbarcontent {
+       //background-color: yellow;
+       padding: 30px;
+     }
+     #navbarbuttonpanel {
+       position: absolute;
+       right: 0;
+       top: 0; //background-color: green;
+     }
+     #content {
+       margin: auto;
+       z-index: 1;
+     }
+     .onepage {
+       height: 100vh; //background: blue;
+       //border-style: solid;
+       position: relative;
+     }
+     .heading, .paragraph, .image, .line {
+       position: absolute;
+     }
+     .heading {
+       font-size: 40px;
+     }
+     .paragraph {
+       font-size: 20px;
+     }
+     .line {
+       border-bottom: 1px solid black;
+     }
+     #heading1 {
+       top: 30%;
+       left: 45%;
+     }
+     #paragraph1 {
+       top: 55%;
+       left: 50%;
+       width: 40%;
+     }
+     #image1 {
+       background-image: url('dog.jpg');
+       background-repeat: no-repeat;
+       background-size: contain;
+       top: 20%;
+       left: 10%;
+       width: 30%;
+       height: 60%;
+     }
+     #line1 {
+       top: 48%;
+       left: 30%;
+       width: 40%;
+     }
+     #heading2 {
+       top: 35%;
+       left: 25%;
+     }
+     #paragraph2 {
+       top: 55%;
+       left: 10%;
+       width: 35%;
+     }
+     #image2 {
+       background-image: url('ckt.jpg');
+       background-repeat: no-repeat;
+       background-size: contain;
+       top: 30%;
+       left: 50%;
+       width: 40%;
+       height: 60%;
+     }
+     #line2 {
+       top: 50%;
+       right: 40%;
+       width: 25%;
+     }
+     #heading3 {
+       top: 33%;
+       left: 60%;
+     }
+     #paragraph3 {
+       top: 57%;
+       left: 52%;
+       width: 30%;
+     }
+     #image3 {
+       background-image: url('equations.jpg');
+       background-repeat: no-repeat;
+       background-size: contain;
+       top: 30%;
+       left: 5%;
+       width: 40%;
+       height: 60%;
+     }
+     #line3 {
+       top: 55%;
+       left: 40%;
+       width: 45%;
+     }
